@@ -1,2 +1,2 @@
 # Spaceship
-Test pour les évènements en javascript
+Test pour les évènements type touche clavier en javascript

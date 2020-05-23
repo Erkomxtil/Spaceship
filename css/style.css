@@ -3,5 +3,129 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  background: black;
+  overflow: hidden;
+}
+
+#ship {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+#ship svg #flam {
+  opacity: 1;
+  -webkit-animation: flam1 0.25s linear infinite;
+          animation: flam1 0.25s linear infinite;
+}
+
+#ship svg #flam2 {
+  opacity: 0;
+  -webkit-animation: flam2 0.5s linear infinite;
+          animation: flam2 0.5s linear infinite;
+}
+
+@-webkit-keyframes flam1 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes flam1 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes flam2 {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes flam2 {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#etoile_1 {
+  -webkit-animation: move1 6s linear infinite;
+          animation: move1 6s linear infinite;
+}
+
+#etoile_2 {
+  -webkit-animation: move2 8s linear infinite;
+          animation: move2 8s linear infinite;
+}
+
+@-webkit-keyframes move1 {
+  from {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+  }
+  to {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+}
+
+@keyframes move1 {
+  from {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+  }
+  to {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+}
+
+@-webkit-keyframes move2 {
+  from {
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  to {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+}
+
+@keyframes move2 {
+  from {
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  to {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+  }
 }
 /*# sourceMappingURL=style.css.map */

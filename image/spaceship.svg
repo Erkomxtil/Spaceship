@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="50px"
+	 height="50px" viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve">
+<g id="flam">
+	<path fill="#BF6D13" d="M10.734,38.982l-0.046,2.324l0.375,5.318l-1.438-2.75c0,0-0.75,1.188-0.75,1.375S8.25,49.5,8.25,49.5
+		l-0.875-6.188L5.063,46L6.5,38.25L10.734,38.982"/>
+	<path fill="#BF6D13" d="M43.734,37.982l-0.047,2.324l0.375,5.318l-1.438-2.75c0,0-0.75,1.188-0.75,1.375S41.25,48.5,41.25,48.5
+		l-0.875-6.188L38.063,45l1.438-7.75L43.734,37.982"/>
+</g>
+<g id="flam2">
+	<path fill="#BF6D13" d="M11.125,38l0.344,4.75L10,42.313V48l-2.313-4.766L6.75,47.188l-0.313-4.313c0,0-2.188,2.078-1.813,1.766
+		S7.375,38,7.375,38H11.125z"/>
+	<path fill="#BF6D13" d="M44.125,37l0.344,4.75L43,41.313V47l-2.313-4.766l-0.938,3.953l-0.313-4.313c0,0-2.188,2.078-1.813,1.766
+		S40.375,37,40.375,37H44.125z"/>
+</g>
+<g id="ship">
+	<polygon fill="#797B84" points="35,38.5 25,40.5 15,38.5 15,13 25,5.006 35,13 	"/>
+	<path fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M25,9.603"/>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="19.5" y1="21.9263" x2="30.5" y2="21.9263">
+		<stop  offset="0" style="stop-color:#CCE0F4"/>
+		<stop  offset="0.0231" style="stop-color:#C3DCF2"/>
+		<stop  offset="0.0616" style="stop-color:#A9D2EE"/>
+		<stop  offset="0.1106" style="stop-color:#80C2E7"/>
+		<stop  offset="0.1677" style="stop-color:#47ACDE"/>
+		<stop  offset="0.2047" style="stop-color:#1E9CD7"/>
+		<stop  offset="0.3828" style="stop-color:#0075BE"/>
+		<stop  offset="0.5317" style="stop-color:#005B97"/>
+		<stop  offset="0.6549" style="stop-color:#006AAD"/>
+		<stop  offset="0.8169" style="stop-color:#1A97D4"/>
+		<stop  offset="1" style="stop-color:#C1DCF2"/>
+	</linearGradient>
+	<polygon fill="url(#SVGID_1_)" stroke="#514C4C" stroke-miterlimit="10" points="25,8.353 19.5,13 19.5,33.5 25,35.5 30.5,33.5 
+		30.5,13 	"/>
+	<polygon fill="#9295A5" points="5,25.221 9,17.479 13,25.221 13,37.847 9.143,41.307 5,37.818 	"/>
+	<rect x="13" y="30" fill="#515256" width="2" height="3"/>
+	<polygon fill="#9295A5" points="45,37.957 45,25.221 41,17.479 37,25.221 37,37.847 41.134,41.307 	"/>
+	<rect x="35" y="30" fill="#515256" width="2" height="3"/>
+</g>
+</svg>

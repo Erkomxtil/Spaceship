@@ -5,6 +5,70 @@
           box-sizing: border-box;
   background: black;
   overflow: hidden;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#infos {
+  position: absolute;
+  left: -125px;
+  width: 300px;
+  height: 65px;
+  font-size: 0.5rem;
+  padding: 0.5rem;
+  background: rgba(255, 0, 0, 0.5);
+  opacity: 1;
+  line-height: 1rem;
+  cursor: pointer;
+  -webkit-transition: all 1s linear;
+  transition: all 1s linear;
+}
+
+#infos p {
+  text-align: center;
+  opacity: 1;
+  -webkit-transition: all 1s linear;
+  transition: all 1s linear;
+}
+
+#infos p .close {
+  background: red;
+  padding: 3px 2px 2px 3px;
+  border-radius: 6px;
+}
+
+#infos.noActive {
+  position: absolute;
+  width: 10px;
+  padding: 0;
+  height: 10px;
+  opacity: 0;
+  border-radius: 10px;
+  left: 20px;
+  -webkit-animation: light 1s linear infinite;
+          animation: light 1s linear infinite;
+}
+
+#infos.noActive p {
+  opacity: 0;
+}
+
+@-webkit-keyframes light {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes light {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 #ship {
@@ -13,6 +77,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
+  overflow: visible;
 }
 
 #ship svg #flam {
@@ -76,13 +141,13 @@
 }
 
 #etoile_1 {
-  -webkit-animation: move1 6s linear infinite;
-          animation: move1 6s linear infinite;
+  -webkit-animation: move1 8s linear infinite;
+          animation: move1 8s linear infinite;
 }
 
 #etoile_2 {
-  -webkit-animation: move2 8s linear infinite;
-          animation: move2 8s linear infinite;
+  -webkit-animation: move2 10s linear infinite;
+          animation: move2 10s linear infinite;
 }
 
 @-webkit-keyframes move1 {

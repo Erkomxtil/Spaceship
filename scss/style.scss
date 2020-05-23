@@ -4,7 +4,10 @@
   box-sizing: border-box;
   background: black;
   overflow: hidden;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
 }
 
+@import '_infos';
 @import '_ship';
 @import '_etoiles';

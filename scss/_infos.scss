@@ -1,0 +1,51 @@
+#infos {
+  position: absolute;
+  left: -125px;
+  width: 300px;
+  height: 65px;
+  font-size: 0.5rem;
+  padding: 0.5rem;
+  background: rgba(255, 0, 0, 0.5);
+  opacity: 1;
+  line-height: 1rem;
+  cursor: pointer;
+  transition: all 1s linear;
+
+  p {
+    text-align: center;
+    opacity: 1;
+    transition: all 1s linear;
+
+    .close {
+      background: red;
+      padding: 3px 2px 2px 3px;
+      border-radius: 6px;
+    }
+  }
+
+
+  &.noActive {
+    position: absolute;
+    width: 10px;
+    padding: 0;
+    height: 10px;
+    opacity: 0;
+    border-radius: 10px;
+    left: 20px;
+    animation: light 1s linear infinite;
+
+    p {
+      opacity: 0;
+    }
+  }
+}
+
+@keyframes light {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

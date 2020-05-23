@@ -1,21 +1,27 @@
 #etoile_1 {
-  animation: move1 6s linear infinite;
+  animation: move1 8s linear infinite;
 }
+
 #etoile_2 {
-  animation: move2 8s linear infinite;
+  animation: move2 10s linear infinite;
 }
 
 @keyframes move1 {
   from {
     transform: translateY(-100%);
-  }to {
+  }
+
+  to {
     transform: translateY(100%);
   }
 }
+
 @keyframes move2 {
   from {
     transform: translateY(-50%);
-  }to {
+  }
+
+  to {
     transform: translateY(100%);
   }
 }
